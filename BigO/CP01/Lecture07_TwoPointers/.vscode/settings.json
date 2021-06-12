@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "ostream": "cpp"
+    },
+    "python.pythonPath": "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+}
