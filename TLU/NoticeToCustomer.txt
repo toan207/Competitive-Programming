@@ -1,0 +1,4 @@
+Người mua có ID 1 đã mua BÔNG TẨY TRANG tại Shopee được 58 ngày
+Người mua có ID 2 đã mua BỈM tại Lazada được 121 ngày
+Người mua có ID 4 đã mua BĂNG VỆ SINH tại Website được 32 ngày
+Người mua có ID 5 đã mua BÔNG TẨY TRANG tại Sendo được 513 ngày
