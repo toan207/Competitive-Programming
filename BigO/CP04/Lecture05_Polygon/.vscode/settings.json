@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "ostream": "cpp",
+        "random": "cpp",
+        "new": "cpp",
+        "iostream": "cpp",
+        "iomanip": "cpp"
+    }
+}
