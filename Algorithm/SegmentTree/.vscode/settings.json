@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "array": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}

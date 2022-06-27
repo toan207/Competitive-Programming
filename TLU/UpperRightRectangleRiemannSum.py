@@ -1,11 +1,5 @@
 # import math function
-from math import inf, sin
-from math import cos
-from math import tan
-from math import asin
-from math import acos
-from math import atan
-from math import pi
+from math import inf, sin, cos, tan, asin, acos, atan, pi, sqrt
 # import library
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,9 +8,9 @@ import numpy as np
 print('Input expression: ', end='')
 exp = input()
 print('Input [x1, x2]  : ', end='')
-x1, x2 = map(int, input().split())
+x1, x2 = map(float, input().split())
 print('Input [y1, y2]  : ', end='')
-y1, y2 = map(int, input().split())
+y1, y2 = map(float, input().split())
 tol = float(input('Tolerance       : '))
 
 # Pre-process
@@ -32,7 +26,7 @@ tend = []
 
 # set m, n with m split follow Ox axis and n split follow Oy axis
 # start m = n = 2
-m = 3
+m = 2
 n = 2
 
 X = list()
@@ -80,9 +74,9 @@ for x in X:
 			f.append(eval(exp)*deltaA)
 
 # Print solution
-print('Giá trị tích phân:', f[-1])
+print('Giá trị tích phân:', '%.4f' % f[-1])
 if (ans != inf and pre != inf):
-	print('Sai số là        :', abs(ans-pre))
+	print('Sai số là        :', '%.4f' % abs(ans-pre))
 print('Số lần lặp       :', loop)
 if (loop == 10):
 	print('Không tìm được sai số nhỏ hơn!')
@@ -100,5 +94,8 @@ plt.xlabel('Times')
 plt.ylabel('Value')
 plt.plot(f)
 plt.show()
+
+# Time Complexity  : O( (n*m)^2 )
+# Memory Complexity: O(n)
 
 # Author: Bui Duc Toan
